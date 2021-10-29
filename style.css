@@ -115,7 +115,7 @@ main {
 }
 
 main h1 {
-  font-size: var(--fontSize8XLarge);
+  font-size: var(--fontSize6XLarge);
   font-weight: var(--fontweightNormal);
   max-width: 4ch;
   text-transform: uppercase;
@@ -176,6 +176,7 @@ main p {
   font-weight: var(--fontweightBolder);
 }
 
+/* sa  ddsas sa */
 .email-button {
   width: 6rem;
   height: 3rem;
