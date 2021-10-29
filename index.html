@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/0252bd3897.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>MJMorrison10 | Base Apparel coming soon page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-wrapper">
+        <header>
+          <div class="header-left">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+        </header>
+        <main>
+          <h1><span>We're</span> coming soon</h1>
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form class="email-form" name="email">
+            <input
+            type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button
+              class="email-button"
+              type="submit"
+              onclick="ValidateEmail(document.email.email)"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="alert-circle">
+              <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div class="email-alert">Please provide a valid email</div>
+          </form>
+        </main>
+      </div>
+
+      <div class="photo">
+        <img src="./images/hero-desktop.jpg" alt="model" />
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://bit.ly/portfolio-mjm-react">mjmorrison10</a>.
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
